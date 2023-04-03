@@ -15,10 +15,22 @@ After storing the data in a MySQL database, various advanced SQL techniques were
 
 The SQL queries used for the analysis were carefully crafted to extract valuable insights from the data. For instance, CTEs and window functions were utilized to calculate growth rates and average growth rates for municipalities. In addition to these techniques, views and temporary tables were employed to simplify complex queries and avoid repetitive calculations.
 
-The queries used in the analysis were designed to uncover trends and patterns in the tourism industry over the past decade. For example, some of the key queries included determining the total number of foreign tourists in each municipality over the last 10 years, calculating the growth rate of each municipality by year, determining the average number of foreign tourists who visited each city in the last decade, tracking the growth of each city on a yearly basis, and analyzing the average growth rate of each municipality over the past decade.
-
+The queries used in the analysis were designed to uncover trends and patterns in the tourism industry over the past decade.
 By utilizing these advanced SQL techniques, a comprehensive and detailed analysis of the tourism industry in Montenegro was performed, revealing valuable insights that can inform future decision-making processes.
-<br><img src="./pics/mysql_databse.PNG">
+<br>
+### Database Schema <br>
+<img src="./pics/mysql_database.PNG" height=50% width=50%>
+
+## Power Bi Dashboard
+
+In addition to the MySQL analysis, a dashboard was created in Power BI to further visualize and gain insights from the data. To create the Power BI report, the MySQL database was connected to Power BI and the tables were linked by year. Measures were created to calculate year-over-year growth rates, and a variety of visualizations were used to display the data, such as bar charts, line charts, and maps.
+
+The Power BI report allowed for an interactive and user-friendly way to explore the data, enabling users to filter by year, municipality, country, and accommodation type. The report provided an overview of the tourism industry in Montenegro over the past decade, highlighting trends and patterns that were not immediately apparent through the MySQL analysis alone.
+
+Overall, the combination of MySQL analysis and Power BI visualization provided a comprehensive understanding of the tourism industry in Montenegro, revealing valuable insights that can inform future decision-making processes. 
+<br>
+### Country Analysis <br>
+<img src="dashboard-images/first_page.PNG" height=50% width=70%>
 
 ## Files
 
@@ -44,7 +56,7 @@ In this project, I utilized various technologies to perform data extraction, tra
 
 ## Conclusion
 
-The analysis of the tourism industry in Montenegro from 2012 to 2022 shows that there has been a steady increase in the number of tourists visiting Montenegro every year. The majority of tourists are from neighboring countries, with Serbia being the top country of origin. Most tourists stay in hotels or private accommodation, and the coastal municipalities are the most popular tourist destinations.
+The analysis of the tourism industry in Montenegro from 2012 to 2022 reveals a steady upward trend in the number of tourists visiting the country each year, with a peak in 2019. However, due to the COVID-19 pandemic in 2020, there was a significant dip in the number of tourists.The majority of tourists are from neighboring countries, with Serbia being the top country of origin. Most tourists stay in hotels or private accommodation, and the coastal municipalities are the most popular tourist destinations.
 
 ## Future Work
 
